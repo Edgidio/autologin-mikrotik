@@ -1,0 +1,22 @@
+{
+  "name": "manual-login-mikrotik",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "macaddress": "^0.5.1",
+    "mikronode": "^2.3.11",
+    "node-routeros": "^1.6.9"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  }
+}
